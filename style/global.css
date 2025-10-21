@@ -96,6 +96,11 @@ ul [role="list"] {
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
 /* o em sempre pega do root que no caso é 16, entao 80*16 =1280 */
 @media (width >=80em) {
     :root {
